@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect fill="#2D2D2D" width="1920" height="1080"/>
+  <rect fill="#E31837" x="760" y="440" width="400" height="200"/>
+  <text fill="#FFF" font-family="Arial, sans-serif" font-size="48" font-weight="bold" x="960" y="540" text-anchor="middle">
+    HERO IMAGE PLACEHOLDER
+  </text>
+  <text fill="#FFF" font-family="Arial, sans-serif" font-size="24" x="960" y="580" text-anchor="middle">
+    Replace with professional roofing photo (1920x1080)
+  </text>
+</svg>

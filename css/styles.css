@@ -1234,10 +1234,18 @@ section {
     }
 
     .dropdown-menu {
+        display: none; /* Hidden by default on mobile too */
         position: static;
         box-shadow: none;
         background-color: var(--color-light-gray);
         margin-top: var(--spacing-xs);
+    }
+
+    /* Show dropdown when parent has .open class or on hover/focus */
+    .dropdown.open .dropdown-menu,
+    .dropdown:hover .dropdown-menu,
+    .dropdown:focus-within .dropdown-menu {
+        display: block;
     }
 
     .mobile-menu-toggle {
