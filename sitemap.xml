@@ -109,15 +109,51 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Roofing Location Pages -->
+  <!-- Roofing Location Pages (22 Total) -->
   <url>
-    <loc>https://murtons.co.za/roofing-services-cape-town/durbanville/</loc>
+    <loc>https://murtons.co.za/roofing-services-cape-town/bellville/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://murtons.co.za/roofing-services-cape-town/table-view/</loc>
+    <loc>https://murtons.co.za/roofing-services-cape-town/big-bay/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/bloubergstrand/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/brackenfell/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/camps-bay/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/century-city/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/claremont/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/clifton/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -129,13 +165,79 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/durbanville/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/green-point/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/hout-bay/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/melkbosstrand/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/milnerton/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/newlands/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/panorama/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/parow/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/plattekloof/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/rondebosch/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://murtons.co.za/roofing-services-cape-town/sea-point/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://murtons.co.za/roofing-services-cape-town/camps-bay/</loc>
+    <loc>https://murtons.co.za/roofing-services-cape-town/stellenbosch/</loc>
+    <lastmod>2025-11-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://murtons.co.za/roofing-services-cape-town/table-view/</loc>
     <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
