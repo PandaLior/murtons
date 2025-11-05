@@ -1,0 +1,63 @@
+# Robots.txt for Murtons Projects
+# Website: https://murtons.co.za/
+# Premium Roofing & Home Improvement Services in Cape Town
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://murtons.co.za/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Allow all CSS and JavaScript files for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow admin/private areas (if any exist in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow search engines to index all service pages
+Allow: /roofing-services-cape-town/
+Allow: /waterproofing-services-cape-town/
+Allow: /painting-services-cape-town/
+Allow: /paving-services-cape-town/
+Allow: /drainage-services-cape-town/
+Allow: /renovation-services-cape-town/
+
+# Priority pages for crawling
+Allow: /about-murtons-projects/
+Allow: /contact-us/
+Allow: /free-quote/
+Allow: /service-areas/
+Allow: /portfolio/
+Allow: /testimonials/
+
+# User-agent specific rules for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
