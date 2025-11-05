@@ -246,7 +246,7 @@
     });
 
     // ========================================
-    // DROPDOWN MENU ACCESSIBILITY
+    // DROPDOWN MENU ACCESSIBILITY & MOBILE HANDLING
     // ========================================
     const dropdowns = document.querySelectorAll('.dropdown');
 
@@ -255,6 +255,30 @@
         const dropdownMenu = dropdown.querySelector('.dropdown-menu');
 
         if (dropdownLink && dropdownMenu) {
+            // Handle click/tap to toggle dropdown (especially for mobile)
+            dropdownLink.addEventListener('click', function(e) {
+                // On mobile or when screen is narrow, toggle the dropdown
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+
+                    // Close all other dropdowns first
+                    dropdowns.forEach(otherDropdown => {
+                        if (otherDropdown !== dropdown) {
+                            otherDropdown.classList.remove('open');
+                            const otherLink = otherDropdown.querySelector('a');
+                            if (otherLink) {
+                                otherLink.setAttribute('aria-expanded', 'false');
+                            }
+                        }
+                    });
+
+                    // Toggle this dropdown
+                    dropdown.classList.toggle('open');
+                    const isOpen = dropdown.classList.contains('open');
+                    dropdownLink.setAttribute('aria-expanded', isOpen);
+                }
+            });
+
             // Handle keyboard navigation
             dropdownLink.addEventListener('keydown', function(e) {
                 // Open dropdown on Enter or Space
@@ -281,6 +305,22 @@
             });
         }
     });
+
+    // Close all dropdowns when mobile menu closes
+    if (mobileMenuToggle && mainNav) {
+        mobileMenuToggle.addEventListener('click', function() {
+            // When closing the mobile menu, also close all dropdowns
+            if (!mainNav.classList.contains('active')) {
+                dropdowns.forEach(dropdown => {
+                    dropdown.classList.remove('open');
+                    const link = dropdown.querySelector('a');
+                    if (link) {
+                        link.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            }
+        });
+    }
 
     // ========================================
     // CLICK-TO-CALL TRACKING (Optional)

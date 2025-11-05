@@ -1330,10 +1330,8 @@ section {
         margin-top: var(--spacing-xs);
     }
 
-    /* Show dropdown when parent has .open class or on hover/focus */
-    .dropdown.open .dropdown-menu,
-    .dropdown:hover .dropdown-menu,
-    .dropdown:focus-within .dropdown-menu {
+    /* Show dropdown ONLY when parent has .open class (no hover on mobile) */
+    .dropdown.open .dropdown-menu {
         display: block;
     }
 
