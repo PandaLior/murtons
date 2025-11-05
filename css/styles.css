@@ -575,7 +575,7 @@ section {
 
 .service-card.featured {
     grid-column: span 2;
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    background: linear-gradient(135deg, var(--color-dark) 0%, #1a1a1a 100%);
     color: var(--color-white);
 }
 
