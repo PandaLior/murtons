@@ -396,6 +396,17 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    animation: slowZoom 20s ease-in-out infinite alternate;
+}
+
+/* Subtle zoom animation for background */
+@keyframes slowZoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
 }
 
 .hero-overlay {
@@ -406,6 +417,17 @@ section {
     height: 100%;
     background: linear-gradient(135deg, rgba(227, 24, 55, 0.85) 0%, rgba(45, 45, 45, 0.85) 100%);
     z-index: 2;
+    animation: gradientShift 15s ease infinite;
+}
+
+/* Animated gradient for hero overlay */
+@keyframes gradientShift {
+    0%, 100% {
+        background: linear-gradient(135deg, rgba(227, 24, 55, 0.85) 0%, rgba(45, 45, 45, 0.85) 100%);
+    }
+    50% {
+        background: linear-gradient(135deg, rgba(253, 185, 19, 0.75) 0%, rgba(227, 24, 55, 0.85) 100%);
+    }
 }
 
 .hero-content {
@@ -413,6 +435,19 @@ section {
     z-index: 3;
     max-width: 900px;
     padding: var(--spacing-lg);
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Fade in and float up animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .hero h1 {
@@ -420,6 +455,7 @@ section {
     font-size: 3rem;
     margin-bottom: var(--spacing-md);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 1.2s ease-out 0.2s both;
 }
 
 .hero-subheading {
@@ -447,10 +483,28 @@ section {
     border-radius: 50px;
     font-weight: 600;
     backdrop-filter: blur(10px);
+    animation: fadeInUp 1.5s ease-out 0.4s both;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.trust-badges .badge:hover {
+    transform: translateY(-3px);
+    background-color: rgba(253, 185, 19, 0.3);
 }
 
 .trust-badges .badge .icon {
     font-size: 1.2rem;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Subtle pulse animation for icons */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
 }
 
 /* Hero CTA Buttons */
@@ -459,6 +513,16 @@ section {
     gap: var(--spacing-md);
     justify-content: center;
     flex-wrap: wrap;
+    animation: fadeInUp 1.8s ease-out 0.6s both;
+}
+
+.hero-cta .btn {
+    transition: all 0.3s ease;
+}
+
+.hero-cta .btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* ========================================
@@ -791,6 +855,18 @@ section {
     text-decoration: none;
 }
 
+/* Fix link visibility on red backgrounds - make links white with underline */
+.final-cta-section a:not(.btn) {
+    color: var(--color-white);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.final-cta-section a:not(.btn):hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
+
 /* ========================================
    FOOTER
    ======================================== */
@@ -866,6 +942,19 @@ section {
     margin-top: var(--spacing-md);
     padding-top: var(--spacing-md);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Google Maps */
+.footer-map {
+    margin-top: var(--spacing-md);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-map iframe {
+    display: block;
+    width: 100%;
 }
 
 /* Footer Bottom */
